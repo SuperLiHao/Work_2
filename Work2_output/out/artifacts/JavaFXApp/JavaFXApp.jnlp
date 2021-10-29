@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXApp.jnlp">
+  <information>
+    <title>JavaFXApp</title>
+    <vendor>Unknown</vendor>
+    <description>JavaFXApp</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXApp.jar" size="511418" download="eager" />
+    <jar href="charsets.jar" size="3086196" download="eager" />
+    <jar href="deploy.jar" size="4588523" download="eager" />
+    <jar href="javaws.jar" size="895522" download="eager" />
+    <jar href="jce.jar" size="112397" download="eager" />
+    <jar href="jfr.jar" size="508971" download="eager" />
+    <jar href="jfxswt.jar" size="41298" download="eager" />
+    <jar href="jsse.jar" size="615483" download="eager" />
+    <jar href="management-agent.jar" size="381" download="eager" />
+    <jar href="plugin.jar" size="1928849" download="eager" />
+    <jar href="resources.jar" size="3488942" download="eager" />
+    <jar href="rt.jar" size="62653574" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="sample.Main"  name="JavaFXApp" />
+  <update check="background"/>
+</jnlp>
